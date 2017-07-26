@@ -1,0 +1,125 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res}
+\usepackage[colorlinks]{hyperref}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\begin{document}
+\name{\LARGE{Qi Chen}}
+% \address used twice to have two lines of address
+\address{Address: 2617 Ellendale Pl, Los Angeles, CA 90007 \quad \quad Email: \href{mailto:qchen10@nyit.edu}{\textcolor{blue}{qchen10@nyit.edu}}}
+\address{\hspace{90mm} Phone: 213-713-0893}
+
+\begin{resume}
+\vspace{-2mm}
+\section{OBJECTIVE}
+	Seeking Software Engineer intern summer 2017
+\vspace{-1.5mm}
+\section{EDUCATION}
+                {\sl \href{http://www.usc.edu/}{\textcolor{blue}{\textbf{University of Southern California}}}}  \hfill Aug.2016 - May.2018
+                    \begin{itemize}
+                    \item Master's Degree in Computer Science \quad GPA: 4.0/4.0
+                    \end{itemize}
+                \vspace{-2mm}
+                {\sl \href{http://www.nyit.edu/}{\textcolor{blue}{\textbf{New York Institute of Technology}}}}  \hfill Sep.2012 - Jun.2016
+                 \begin{itemize}
+                   \item Bachelor's Degree in Electrical and Computer Engineering \quad GPA:3.7/4.0                 \end{itemize}
+
+\vspace{-2.5mm}
+
+\section{SKILLS}
+            {\sl \textbf{Programming Languages}}:   Java, Python, C++, MATLAB, \LaTeX\\
+            {\sl \textbf{Other Technologies}}:  SQL, DynamoDB, J2EE, Hadoop, Spark, HTML/CSS, PHP, JavaScript, JQuery, Apache, Android, IOS, Linux\\
+\vspace{-5mm}
+
+\section{RESEARCH \\ EXPERIENCE}
+        {\sl \textbf{Energy Efficient Resource Allocation in Data Centers}} \hfill May.2014 - Mar.2015 \\[1mm]
+        \vspace{0.1mm}
+        \quad \textbf{Research Assistant}, Supervisor: Prof.Jianxin Chen
+         \vspace{1mm}
+        \begin{itemize}
+            \item Proposed a utilization-based \textbf{VM migration} frame- work for cloud computing
+	\item Define the performance function and design a utilization-based migration scheme to optimize the VM placement
+	\item Evaluate the scheme by simulations and the results show that \textbf{10\%} hosts have low utilizations compared to \textbf{58\%} of MinPower policy
+\item \textbf{Publication:} \underline{\textbf{Qi Chen}}, Chen J, Zheng B, et al. Utilization-based VM consolidation scheme for power efficiency in cloud data centers[C]//Communication Workshop (ICCW), 2015 IEEE International Conference on. IEEE, 2015: 1928-1933.
+        \end{itemize}
+        \vspace{-2mm}
+        {\sl {\textbf{Human Activity Inference on Smartphone}}} \hfill Jul.2013 - Mar.2014 \\[1mm]
+         \vspace{0.1mm}
+        \quad \textbf{Research Assistant}, Supervisor: Prof.Jianxin Chen
+        \begin{itemize}
+        \vspace{1mm}
+              \item Developed a modified Apriori algorithm to mine  relationships among various activities and then to infer one activity from other already-known activities.
+             
+        \end{itemize}
+ %           \vspace{-1mm}
+ %           \item Computational Crossword Solver
+ %           \vspace{-2mm}
+%                \begin{itemize}
+%                    \item Used a unigram model to compute probabilities for possible answers to each clue from similar clues in a clue database
+%                    \vspace{-1mm}
+ %                   \item Used an iterative algorithm to fill in the crossword puzzle grid word by word.
+ %               \end{itemize}
+
+ %       {\sl \textbf{A Multi-level System for Crossword Solving}}
+%        \vspace{1mm}
+%        \begin{itemize}
+%            \item Supervisor: Prof. Yong Yu
+%            \item Collaborator: Kan Ren, Yiding Tian
+%            \item Previous research to solve crossword only focused on clue-answer database or Wikipedia. We designed several secondary databases, such as synonym database and slang database. Then We integrated all databases in a multi-level system. According to the type of input clue, system would search different databases in a specific order, sequentially or parallelly.
+%        \end{itemize}
+%
+%        {\sl \textbf{Predicting Stock Market Indicators through Chinese Guba  }}
+%        \vspace{1mm}
+%        \begin{itemize}
+%            \item Supervisor: Prof. Yong Yu
+%            \item I tried to find the relation between stock market indicators and investor sentiment hid in Guba. The project contained two parts. The first part was to analyze the sentiment from comments and posts in Guba. This part(Chinese sentiment analysis) was based on a Chinese lexicon and many semantic rules. Second part focuses on how to predict stock market indicators, especially close price, through the sentiment features.
+               % The solution was an ensemble of many models. According to specific purpose of the model, each model uses different features and data sets to train. To get a better result, there were 3 underlying algorithms using in models.
+%        \end{itemize}
+
+
+\section{SELECTED \\ PROJECTS}
+           {\sl \textbf{Congress Information Search Web and IOS APP}}           \hfill Sept.2016 - Dec.2016 \\[1mm]
+             \vspace{-5mm}
+             \begin{itemize}
+	\item Designed a congress information search web using \textbf{HTML5/CSS}		
+	\item Applied \textbf{AJAX, JSON and JQuery} to implement all functions
+	\item Deployed our web and IOS APP on AWS
+		\item \textbf{Techniques Used:} HTML5/CSS, AWS, JSON, AJAX, jQuery and IOS JDK
+             \end{itemize}
+             \vspace{-3mm}
+            {\sl \textbf{Automatic Collision Avoidance in Vehicle}}\hfill Aug.2015 - Sep.2015 \\[1mm]
+            \vspace{-5mm}
+             \begin{itemize}
+	\item Developed a \textbf{Collision Avoidance System} where toy cars can avoid collision automatically
+	\item Developed a following car module where rear car follows the front car by the control its speed and direction
+	\item \textbf{Techniques Used:} C++, Arduino
+             \end{itemize}
+             \vspace{-3mm}
+             {\sl \textbf{Professor Rating Application}} \hfill Mar.2015 - Jul.2015 \\[1mm]
+             \vspace{-5mm}
+             \begin{itemize}
+             \item Developed Professor Rating Application utilizing JDBC/JSP on Tomcat
+             \item Allowed users to rate Professor by course, evaluate result, and perform a variety of analytical reporting
+             \item \textbf{Techniques Used:} Java, MySQL, JDBC, JSP, Tomcat
+             \end{itemize}
+             
+%            {\sl \textbf{Online Social Network APP on Android Platform}}\hfill Mar.2014 - Jul.2014 \\[1mm]
+%            \vspace{-5mm}
+%            \begin{itemize}
+%	\item Implemented \textbf{self-designed} User database tables based on \textbf{MySQL}
+%            \vspace{-1mm}
+%	\item Developed several online basic Social Network's functions via \textbf{J2EE}, including video chatting, social updates and commenting, etc
+%	\item Developed \textbf{intelligent recommender system} by users' affection, employing several \textbf{machine learning} algorithms
+%	\item \textbf{Techniques Used:} Java, MySQL, Android SDK, J2EE, JSON, Tomcat
+%
+%            \end{itemize}
+            
+\end{resume}
+\end{document}
+
+
+
+
+
+
+

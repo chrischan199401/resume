@@ -1,0 +1,150 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res}
+\usepackage[colorlinks]{hyperref}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\begin{document}
+\name{Xiangchen Zhao}
+% \address used twice to have two lines of address
+\address{Address: \#1247, West 30th St, Los Angeles, CA, 90007 \quad \quad Email: \href{mailto:xiangchz@usc.edu}{\textcolor{blue}{xiangchz@usc.edu}}}
+\address{\hspace{33mm} Phone: 310-592-6219  \quad \quad Github: \href{https://github.com/fairy-tale}{\textcolor{blue}{https://github.com/fairy-tale}}}
+
+\begin{resume}
+\vspace{-2mm}
+%\section{OBJECTIVE}
+%    Seeking deep learning engineer intern summer 2017
+\vspace{-1.5mm}
+\section{EDUCATION}
+                {\sl \href{http://www.usc.edu/}{\textcolor{blue}{\textbf{University of Southern California}}}}  \hfill Aug.2016 - May.2018
+                    \begin{itemize}
+                    \item M.S. in Computer Science \quad GPA:3.9/4.0
+                    \end{itemize}
+                \vspace{-2mm}
+                {\sl \href{http://en.sjtu.edu.cn/}{\textcolor{blue}{\textbf{Shanghai Jiao Tong University}}}}  \hfill Sep.2011 - Jun.2015
+                 \begin{itemize}
+                   \item B.E. in Computer Science at \href{http://english.seiee.sjtu.edu.cn/english/info/8338.htm}{\textcolor{blue}{IEEE Honor Class}} \quad GPA:3.6/4.0 \quad Rank: 17/96
+                 \end{itemize}
+
+\vspace{-2.5mm}
+\section{RESEARCH \\ EXPERIENCE}
+%        {\sl \textbf{Mobile-LCD Communication System}}
+%        \vspace{1mm}
+%        \begin{itemize}
+%            \item Supervisor: Prof.Chengnian Long
+%            \item The system used colorful barcode to enable the communication between smartphone and PC. We proposed a method to solve the main problem, optical noise in the communication. According to the quality of transmission, we randomly added several black blocks in the whole barcode to label optical noise and then cancel the noise in the following transmission.
+%        \end{itemize}
+        {\sl \href{http://www.uic.edu/}{\textcolor{blue}{\textbf{University of Illinois at Chicago}}}}, Chicago, USA  \hfill Oct.2015 - June.2016 \\[1mm]
+        \vspace{0.1mm}
+        \quad \textbf{Visiting Student}, Supervisor: {\href{https://www.cs.uic.edu/~liub/}{\textcolor{blue}{Prof.Bing Liu}}}
+         \vspace{1mm}
+        \begin{itemize}
+            \item Opinion Mining and Sentiment Analysis
+             \vspace{-2mm}
+            \begin{itemize}
+            \item Developed a context-based n-gram Latent Dirichlet Allocation (LDA) to better solve the topic-sentiment task.
+            \vspace{-1.5mm}
+            \item Learned Convolutional Neural Networks (CNN) in sentence classification.
+            \end{itemize}
+        \end{itemize}
+        \vspace{-5mm}
+        {\sl \href{http://en.sjtu.edu.cn/}{\textcolor{blue}{\textbf{Shanghai Jiao Tong University}}}}, Shanghai, China  \hfill Mar.2014 - Jul.2015 \\[1mm]
+        \vspace{0.1mm}
+        \quad \textbf{Research Assistant}, Supervisor: {\href{http://english.seiee.sjtu.edu.cn/english/detail/841_695.htm}{\textcolor{blue}{Prof.Yong Yu}}}
+        \vspace{1mm}
+        \begin{itemize}
+            \item Predicting Stock Market Indicators (Bachelor Thesis)
+            \vspace{-2mm}
+                \begin{itemize}
+                \item Extracted Chinese word and sentence structure from the posts on the Chinese Stock Forum to build a model to predict the sentiment of each post.
+                \vspace{-5.5mm}
+                \item Ensembled 4 Random Forest models to predict market indicators using sentiment information as main feature.
+                \vspace{-1.5mm}
+                \item The prediction model was tested in Chinese Stock Market for 1 month. The annualized rate of return reached 17.3\%
+            \end{itemize}
+ %           \vspace{-1mm}
+ %           \item Computational Crossword Solver
+ %           \vspace{-2mm}
+%                \begin{itemize}
+%                    \item Used a unigram model to compute probabilities for possible answers to each clue from similar clues in a clue database
+%                    \vspace{-1mm}
+ %                   \item Used an iterative algorithm to fill in the crossword puzzle grid word by word.
+ %               \end{itemize}
+        \end{itemize}
+\vspace{-4.5mm}
+ %       {\sl \href{http://en.sjtu.edu.cn/}{\textcolor{blue}{\textbf{Shanghai Jiao Tong University}}}}, Shanghai, China  \hfill Jul.2013 - Mar.2014 \\[1mm]
+ %       \vspace{0.1mm}
+  %      \quad \textbf{Research Assistant}, Supervisor: {\href{http://automation.sjtu.edu.cn/en/ShowPeople.aspx?info_id=361&info_lb=326&flag=224}{\textcolor{blue}{Prof.Chengnian Long}}}
+   %     \vspace{1mm}
+    %    \begin{itemize}
+     %       \item Human Activity Inference on Smartphone
+      %      \vspace{-2mm}
+       %         \begin{itemize}
+        %        \item Developed a modified Apriori algorithm to mine  relationships among various activities and then to infer one activity from other already-known activities.
+         %       \end{itemize}
+        %\end{itemize}
+
+ %       {\sl \textbf{A Multi-level System for Crossword Solving}}
+%        \vspace{1mm}
+%        \begin{itemize}
+%            \item Supervisor: Prof. Yong Yu
+%            \item Collaborator: Kan Ren, Yiding Tian
+%            \item Previous research to solve crossword only focused on clue-answer database or Wikipedia. We designed several secondary databases, such as synonym database and slang database. Then We integrated all databases in a multi-level system. According to the type of input clue, system would search different databases in a specific order, sequentially or parallelly.
+%        \end{itemize}
+%
+%        {\sl \textbf{Predicting Stock Market Indicators through Chinese Guba  }}
+%        \vspace{1mm}
+%        \begin{itemize}
+%            \item Supervisor: Prof. Yong Yu
+%            \item I tried to find the relation between stock market indicators and investor sentiment hid in Guba. The project contained two parts. The first part was to analyze the sentiment from comments and posts in Guba. This part(Chinese sentiment analysis) was based on a Chinese lexicon and many semantic rules. Second part focuses on how to predict stock market indicators, especially close price, through the sentiment features.
+%               % The solution was an ensemble of many models. According to specific purpose of the model, each model uses different features and data sets to train. To get a better result, there were 3 underlying algorithms using in models.
+%        \end{itemize}
+
+
+\section{SELECTED \\ PROJECTS}
+           {\sl \textbf{Image Processing Pipeline under TensorFlow Framework}}           \hfill Aug.2016 - Now \\[1mm]
+             \vspace{-5mm}
+             \begin{itemize}
+             \item As the project manager in our team, organized group tasks and meetings, wrote life cycle plan.
+             \vspace{-1mm}
+             \item Collaborated on pipeline used to detect the dangerous items, such as guns and knives, in real-time images from Facebook/Twitter.
+             \vspace{-1mm}
+             \item Modified and retrained the Convolutional Neural Networks (CNN) model Inception-v3 in TensorFlow.
+             \end{itemize}
+             \vspace{-3mm}
+            {\sl \textbf{Pokemon Trainer Management System (PTMS)}}\hfill Aug.2016 - Sep.2016 \\[1mm]
+            \vspace{-5mm}
+             \begin{itemize}
+             \item Developed a web application called PTMS, which allowed trainers to add/delete their Pokemons and search for the specific trainer/Pokemon.
+             \vspace{-1mm}
+             \item Implemented all the functions using Laravel PHP framework. Used phpMyAdmin to handle the administration of MySQL.
+             \end{itemize}
+             \vspace{-3mm}
+            {\sl \textbf{Computer Go in Artificial Intelligence}}\hfill Mar.2013 - Jul.2013 \\[1mm]
+            \vspace{-5mm}
+            \begin{itemize}
+            \item Designed a computer program (C language) that played Computer Go, a traditional board game.
+            \vspace{-1mm}
+            \item Combined Monte Carlo Tree Search algorithm with the prior-knowledge strategies we designed to get a good performance.
+            \end{itemize}
+\vspace{-2.5mm}
+\section{SKILLS}
+            {\sl \textbf{Programming Languages}}: C/C++, Python, Java, Matlab, R\\
+            {\sl \textbf{Web Technologies}}: HTML/CSS, Javascript, PHP, Laravel, Apache, Django, ReactJS\\
+            {\sl \textbf{Other Technologies}}: MySQL, TensorFlow, Theano, Linux, Android\\
+\vspace{-2.5mm}
+\section{HONORS AND \\ AWARDS }
+        \begin{itemize}
+        \item Second Prize of Excellent Bachelor's Thesis, Shanghai Jiao Tong University
+%        \item Academic Excellence Scholarship, top 15\%, Shanghai Jiao Tong University 2014
+        \item Academic Excellence Scholarship, top 15\%, Shanghai Jiao Tong University
+%        \item Academic Excellence Scholarship, top 15\%, Shanghai Jiao Tong University 2012
+        \end{itemize}
+\end{resume}
+\end{document}
+
+
+
+
+
+
+

@@ -1,0 +1,107 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAR 2017 22:34
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Resume2.tex
+(./Resume2.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/curve/curve.cls
+Document Class: curve 2010/12/14 v1.16 Curriculum Vitae class for LaTeX2e
+(/usr/local/texlive/2016/texmf-dist/tex/latex/carlisle/ltxtable.sty
+Package: ltxtable 1995/12/11 v0.2 longtable/tabularx merge (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen102
+\extrarowheight=\dimen103
+\NC@list=\toks14
+\extratabsurround=\skip41
+\backup@length=\skip42
+)
+\TX@col@width=\dimen104
+\TX@old@table=\dimen105
+\TX@old@col=\dimen106
+\TX@target=\dimen107
+\TX@delta=\dimen108
+\TX@cols=\count79
+\TX@ftn=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip43
+\LTright=\skip44
+\LTpre=\skip45
+\LTpost=\skip46
+\LTchunksize=\count80
+\LTcapwidth=\dimen109
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count81
+\LT@rows=\count82
+\c@LT@tables=\count83
+\c@LT@chunks=\count84
+\c@table=\count85
+\LT@p@ftn=\toks16
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count86
+\calc@Bcount=\count87
+\calc@Adimen=\dimen110
+\calc@Bdimen=\dimen111
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count88
+\calc@Cskip=\skip49
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)
+\@almosttextwidth=\skip50
+\subrubricbeforespace=\skip51
+\subrubricspace=\skip52
+\rubricspace=\skip53
+\rubricafterspace=\skip54
+\headerspace=\skip55
+\photosep=\skip56
+\photo@width=\skip57
+\leftheader@width=\skip58
+\rightheader@width=\skip59
+\titlespace=\skip60
+\c@bibcount=\count89
+\c@bibtotal=\count90
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+))
+./Resume2.tex:23: Undefined control sequence.
+l.23   \setsansfont
+                   [Ligatures=TeX]{Lato}
+? 
+./Resume2.tex:23: Emergency stop.
+l.23   \setsansfont
+                   [Ligatures=TeX]{Lato}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 699 strings out of 493014
+ 9593 string characters out of 6133351
+ 63531 words of memory out of 5000000
+ 4308 multiletter control sequences out of 15000+600000
+ 3940 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,0n,21p,171b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+./Resume2.tex:23:  ==> Fatal error occurred, no output PDF file produced!

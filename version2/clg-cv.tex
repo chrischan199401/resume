@@ -1,0 +1,360 @@
+%%%%%%%%%%%%%%%%%%%%%%%
+% Connor Luke Goddard - CV
+% LaTeX Template
+%
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+\documentclass[a4paper, 11pt]{extarticle} % Default font size and paper size
+\renewcommand\baselinestretch{0.9} %???
+
+% Allow for additional/smaller text sizes.
+\usepackage{extsizes}
+\usepackage{enumitem}
+\usepackage{fontspec} % For loading fonts
+\usepackage{anyfontsize}
+\usepackage{longtable}
+\usepackage{tabularx}
+
+
+\defaultfontfeatures{Mapping=tex-text}
+
+\setmainfont % load font from path
+[
+    Extension = .otf,
+    UprightFont = SourceSansPro-Regular,
+    BoldFont = SourceSansPro-Semibold, % Linux Libertine O Regular Semibold
+    ItalicFont = SourceSansPro-Light,
+]
+{SourceSansPro-Regular}
+
+\newfontfamily{\titlenamefont}[
+		Extension = .otf,
+       UprightFont = BebasNeue_Regular,
+        BoldFont = BebasNeue_Bold,
+        ItalicFont = BebasNeue_Book,
+]
+{BebasNeue_Regular}
+
+
+\DeclareTextFontCommand{\titletext}{\titlenamefont}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+
+% Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+
+\usepackage{fullpage}
+
+\usepackage[a4paper, top=0.4in, left=0.5in, right=0.5in]{geometry}
+
+\addtolength{\textheight}{3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{HTML}{DD5424} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\large\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+
+\begin{tabular}{@{} l r}
+
+\begin{minipage}{9.8cm}
+	\begin{flushleft}
+ 			\titletext{\fontsize{30}{0}\selectfont \textbf{Qi Chen}}		
+	\end{flushleft}
+\end{minipage}
+
+&
+		
+			\begin{small}
+			\begin{minipage}{8.2cm}
+				\begin{flushright}
+					Address: \textit{325 W. Adams Blvd 4105\\ Los Angeles, CA 90007}
+				\end{flushright}
+			\end{minipage}
+			\end{small}						
+\end{tabular}
+
+\begin{small}
+\begin{flushright}	
+					 Email: \textit{\href{mailto:chen147@usc.edu}{chen147@usc.edu}} \\
+	 				 Phone: \textit{(213)-479-3339} \\
+%	 				Github \textit{\href{https://github.com/cgddrd}{https://github.com/cgddrd}} \\
+%	 				LinkedIn \textit{\href{http://uk.linkedin.com/in/cgddrd}{http://uk.linkedin.com/in/cgddrd}}
+\end{flushright}
+\end{small}
+\vspace{-0.8cm}
+\section{OBJECTIVE}
+\textbf{\hspace{5pt} I'm a 2016 FALL CS student and seeking Software Engineering Internship for Summer 2017}
+\vspace{-0.2cm}
+\section{EDUCATION}
+\vspace{-0.2cm}
+\begin{longtable}{r | p{20cm}}	
+\textbf{Sept 2016 to}
+		
+		 &
+		
+		 \textbf{University of Southern California}, Los Angeles, US  \\
+		
+		\textbf{June 2018}
+		
+		&
+
+\footnotesize{
+
+\vspace{-0.3cm}
+\small{M.S. in Computer Science (GPA 4.0/4.0)
+}
+
+}\\
+\multicolumn{2}{c}{}
+\vspace{-0.5cm}
+\\
+\textbf{Sept 2012 to}
+		
+		 &
+		
+		 \textbf{Nanjing University of Posts and Telecommunications}, Nanjing, China  \\
+		
+			\textbf{June 2016}
+		&
+\footnotesize{
+
+\vspace{-0.3cm}
+
+\small{M.S. in Electrical and Computer Engineering (GAP: 3.8/4.0)}
+}
+\end{longtable}
+
+\vspace{-0.4cm}
+
+\section{TECHNICAL SKILLS}
+\vspace{-0.2cm}
+\begin{tabular}{rl}
+\textbf{Programming Language:} & \hspace{8mm} Python, JAVA, C++, HTML/CSS, PHP, JavaScript, MATLAB, \LaTeX\\
+\textbf{Other Technologies:} & \hspace{8mm} SQL, DynamoDB, J2EE, Hadoop, Spark, JQuery, Apache, Android, IOS, Linux\\
+
+\end{tabular}
+\vspace{-0.1cm}
+\section{RESEARCH EXPERIENCE}
+\vspace{-0.3cm}
+\begin{longtable}{r | p{16cm}}
+			\textbf{May 2014 to}
+		 &
+		 \textbf{Energy Efficient Resource Allocation in Cloud Data Centers}  \\
+		
+			\textbf{Mar 2015}
+		
+%		& \footnotesize{
+
+%\vspace{-0.3cm}\textit{Nanjing University of Posts and Telecommunications, Advised by: Jianxin Chen}}
+%\\
+%		
+&
+
+\small{
+
+\vspace{-0.3cm}
+
+\begin{itemize}[leftmargin=*]
+\item Proposed a \textbf{probabilistic adaptive} overload detection based on central limited theorem to trade off power cost and Service Level Agreement (SLA) cost
+\item Transformed dynamic VM consolidation into an \textbf{optimization problem}
+\item Evaluated the scheme by \textbf{CloudSim} and the results reduced about 77.5\%-82.4\% migrations and saved up to 39.3\%-42.2\% power consumption compared with First Fit Decreasing
+\item \textbf{Publication:} \underline{\textbf{Qi Chen}}, Jianxin Chen, et al. "Utilization-based VM consolidation scheme for power efficiency in cloud data centers," in \emph{Communication Workshop (ICC), 2015 IEEE International Conference on}, pp.1928-1933, 8-12 June 2015APA (EI)
+\item \textbf{Techniques Used:} Java, CloudSim, Heuristic Function, Optimization Search
+\vspace{-0.3cm}
+
+\end{itemize}
+
+}\\
+
+\end{longtable}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{-0.5cm}
+\section{SELECTED PROJECTS}
+\vspace{-0.3cm}
+\begin{longtable}{r | p{16cm}}
+	\textbf{Sept 2016 to}
+	&
+	\textbf{Congress Information Search Web and IOS APP}\\
+	\textbf{Dec 2016}&
+	\small{
+	\vspace{-0.3cm}
+	\begin{itemize}[leftmargin=*]
+		\item Designed a web application based on \textbf{HTML5/CSS} which searches congress information
+		\item Implemented all functions using \textbf{AJAX, JSON, JQuery}, and deployed it on AWS
+		\item Developed that application on \textbf{IOS} platform
+		\item \textbf{Techniques Used:} HTML5/CSS, AJAX, JSON, Bootstrap, jQuery, AWS and IOS APP
+	\vspace{-0.4cm}
+	\end{itemize}
+	}\\
+
+
+%			\textbf{Jan 2016 to}
+%		
+%		 &
+%		
+%		 \textbf{Automatic Collision Avoidance in Vehicle (Individual Project)}  \\
+%		
+%			\textbf{Mar 2016}
+%&
+%
+%\small{
+%
+%\vspace{-0.3cm}
+%
+%
+%\begin{itemize}[leftmargin=*]
+%
+%\item Developed a \textbf{Collision Avoidance System} where toy cars can avoid collision by automatic control of their speed and the distance from neighboring cars
+%\item Designed my own toy car using \textbf{3D-printing} and integrated hardware units into toy car
+%\item Developed a following car module where toy cars follow the front car including making turns and adjusting speed
+%\item \textbf{Techniques Used:} C++, Arduino, hardware
+%\vspace{-0.4cm}
+%\end{itemize}
+%}\\
+
+\multicolumn{1}{c}{} \\
+			\textbf{June 2015 to}
+		
+		 &
+		
+		 \textbf{Flexible Rehabilitation System Based on Wearable Computing}  \\
+		
+			\textbf{Nov 2015}		
+&
+
+\small{
+
+\vspace{-0.3cm}
+
+
+\begin{itemize}[leftmargin=*]
+\item Designed a three-dimensional wearable \textbf{human motion capture} module with \textbf{Kinect SDK}
+\item Applied \textbf{extended kalman filter} to improve the accuracy and stability of motion tracking
+\item \textbf{Techniques Used:} Kinect SDK, C++, kalman filter
+\vspace{-0.4cm}
+
+\end{itemize}
+}\\
+
+
+\multicolumn{2}{c}{} \\
+			\textbf{June 2014 to}
+		
+		 &
+		
+		 \textbf{Online Intelligent Social Network APP on Android Platform}  \\
+		
+			\textbf{Oct 2014}
+&
+
+\small{
+
+\vspace{-0.3cm}
+
+\begin{itemize}[leftmargin=*]
+\item Implemented \textbf{self-designed} User database tables based on \textbf{MySQL}
+
+\item Developed several online basic Social Network’s functions via \textbf{J2EE}, including video chatting, social updates and commenting, etc
+
+\item Developed \textbf{intelligent recommender system} by users’ affection, employing several \textbf{machine learning} algorithms
+
+\item \textbf{Techniques Used:} Java, Android SDK, Hibernate, Struts2, Spring, MySQL, JSON, Tomcat
+\vspace{-0.3cm}
+
+\end{itemize}
+
+}
+\\
+
+
+\end{longtable}
+
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+\vspace{-0.5cm}
+\section{Academic Achievements}
+
+\begin{tabular}{rl}
+Nov 2015 & \hspace{10mm}\textbf{The Third Prize in Challenge Cup 2015 }(most prestigious  science competition in China)\\
+%July 2013 to July 2015& \hspace{10mm}\textbf{The Dean's Honor Award of NYIT} (won every year)\\
+
+May 2014 & \hspace{10mm}\textbf{The Best Student Award of NUPT}\\
+
+Mar 2014 & \hspace{10mm}\textbf{The Second-class Scholarship of NUPT in 2013-2014 Academic Year } (GPA TOP \textbf{5\%})\\
+ %\setmainfont{Fontin-Regular}: 730 (\textsc{q:50;v:39}) 96\textsuperscript{th} percentile; \textsc{awa}: 6.0/6.0 (89\textsuperscript{th} percentile)
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+%\section{Interests and Activities}
+%
+%{\small I enjoy a wide variety of interests and activities including holding a place on the committee of the Aberystwyth Robotics Society and being a member of the university First Aid society (LINKS). I also enjoy a range of sports including mountain biking, kite boarding and sailing.}
+
+%\section{Referees}
+%
+%\begin{small}
+%\begin{tabularx}{\textwidth}{X X}
+%
+%\textbf{Dr. Liang zhou} & \textbf{Dr. Jianxin Chen} \\
+%\textit{Professor} & \textit{Associate Professor} \\\\
+%
+%\footnotesize{College of Communication and Information Engineering} & \footnotesize{College of Communication and Information Engineering} \\
+%\footnotesize{Nanjing University of Posts and Telecommunications} & \footnotesize{Nanjing University of Posts and Telecommunications} \\
+%\textbf{Tel:} +86 139 1393 6864 & \textbf{Tel:}  +86 189 5189 3820 \\
+%\textbf{Email:} liang.zhou@njupt.edu.cn & \textbf{Email:} chenjx@njupt.edu.cn
+%
+%\end{tabularx}
+%
+%\end{small}
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+
+\end{document}

@@ -1,0 +1,705 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Connor Luke Goddard - CV
+% LaTeX Template
+%
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIO\input{clg-cv.tex}
+NS
+%----------------------------------------------------------------------------------------
+
+
+\documentclass[a4paper, 10pt]{extarticle} % Default font size and paper size
+
+% Allow for additional/smaller text sizes.
+\usepackage{extsizes}
+\usepackage{enumitem}
+\usepackage{fontspec} % For loading fonts
+\usepackage{anyfontsize}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{CJK} 
+
+
+\defaultfontfeatures{Mapping=tex-text}
+
+\setmainfont % load font from path
+    [
+        Extension = .otf,
+        UprightFont = SourceSansPro-Regular,
+        BoldFont = SourceSansPro-Semibold, % Linux Libertine O Regular Semibold
+        ItalicFont = SourceSansPro-Light,
+    ]
+    {SourceSansPro-Regular}
+
+\newfontfamily{\titlenamefont}[
+		Extension = .otf,
+        UprightFont = BebasNeue_Regular,
+        BoldFont = BebasNeue_Bold,
+        ItalicFont = BebasNeue_Book,
+]
+{BebasNeue_Regular}
+
+\DeclareTextFontCommand{\titletext}{\titlenamefont}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo}
+
+% Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+
+\usepackage{fullpage}
+
+\usepackage[a4paper, top=0.4in, left=0.7in, right=0.7in]{geometry}
+
+\addtolength{\textheight}{3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{HTML}{DD5424} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\large\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\begin{CJK*}{GBK}{song} 
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+%	 Email: \href{mailto:clg11@aber.ac.uk}{clg11@aber.ac.uk} \\
+%		 Website: \href{http://connorlukegoddard.com}{http://connorlukegoddard.com}
+
+% @{} = Remove padding from left-hand cell.
+\begin{tabular}{@{} l r}
+
+\begin{minipage}{9.8cm}
+	\begin{flushleft}
+ 			\titletext{\fontsize{38}{0}\selectfont \textbf{Mr. Qi Chen}}		
+	\end{flushleft}
+\end{minipage}
+
+&
+		
+			\begin{small}
+			\begin{minipage}{7.2cm}
+				\begin{flushright}
+					Address: \textit{350 W 88th St Room 111,\\ New York, NY 10024}
+				\end{flushright}
+			\end{minipage}
+			\end{small}						
+\end{tabular}
+
+\begin{small}
+\begin{flushright}	
+					 Email: \textit{\href{mailto:chenqi199401@gmail.com}{chrischan1994@126.com}} \\
+	 				 Phone: \textit{+1-646-830-5085} \\
+%	 				Github \textit{\href{https://github.com/cgddrd}{https://github.com/cgddrd}} \\
+%	 				LinkedIn \textit{\href{http://uk.linkedin.com/in/cgddrd}{http://uk.linkedin.com/in/cgddrd}}
+\end{flushright}
+\end{small}
+
+%\section{Profile}
+%
+%{\small Enthusiastic, determined, and hard-working fourth year student at New York Institute of Technology, with excellent \textbf{teamwork}, \textbf{communication}, and \textbf{problem-solving skills} gained from experience of exploring and designing sophisticated software solutions utilising a variety of programming languages and development methodologies in my projects}
+
+\section{Education}
+
+\begin{longtable}{r | p{15cm}}	
+
+
+\textbf{2015.09 to}
+		
+		 &
+		
+		 New York Institute of Technology, \textbf{USA}  \\
+		
+			\textbf{2016.06}
+		
+		&
+
+\footnotesize{
+
+\vspace{-0.3cm}
+\small{Bachelor’s Degree in Electrical and Computer Engineering
+
+Overall GPA: \textbf{3.64/4}}
+
+%\begin{itemize}[leftmargin=*]
+%\item On track for a \textbf{1st class degree} having currently achieved a grade of \textbf{70\% or greater} in every university course module.
+%
+%\item Detailed breakdown of all module grades available on request.
+%
+%\vspace{-0.4cm}
+%
+%\end{itemize}
+}\\
+\multicolumn{2}{c}{}
+\\
+\textbf{Sept 2012 to}
+		
+		 &
+		
+		 Nanjing University of Posts and Telecommunications, \textbf{China}  \\
+		
+			\textbf{June 2015}
+		
+		&
+	
+\footnotesize{
+
+\vspace{-0.3cm}
+
+\small{Bachelor’s Degree in Communication Engineering
+
+Overall GPA: \textbf{4.01/5}}
+%\begin{itemize}[leftmargin=*]
+%\item A-Levels: Computing (B), Applied Business (B) \& Physics (E)
+%
+%\item AS-Levels: Mathematics (E)
+%
+%\item 11 GCSEs including: ICT (A*), Graphics (A*), Science (A), English (A) and Maths (B)
+%
+%\item Key Skills: Working with Others (Level 3), Problem Solving (Level 3), Application of Number (Level 3), ICT (Level 3), Welsh Baccalaureate (Passed)
+%
+%\vspace{-0.4cm}
+%
+%\end{itemize}
+}
+\end{longtable}
+
+%----------------------------------------------------------------------------------------
+%	KEY SKILLS
+%----------------------------------------------------------------------------------------
+
+%\section{Work}
+%
+%\begin{small}
+%\begin{tabular}{r | p{12cm}}
+%
+%		\begin{minipage}[t]{2.5cm}
+%		\begin{flushright}
+%			\textbf{Industrial Experience}
+%		\end{flushright}
+%		\end{minipage}
+%		
+%		&
+%		
+%		Offered \textbf{top-level university bursary} and \textbf{further summer placement position} following a 14-month industrial placement working for international engineering company Renishaw plc as a Software Engineer intern.\\
+%
+%	\multicolumn{2}{c}{} \\
+%	
+%		\begin{minipage}[t]{2.5cm}
+%		\begin{flushright}
+%			\textbf{Developer Skills}
+%		\end{flushright}
+%		\end{minipage}
+%		
+%		&
+%		
+%		Good working knowledge of a variety of programming languages including \textbf{C, C++, Java, C\#, Objective-C} and \textbf{HTML/CSS/Javascript} including an appreciation of Ruby (on-Rails), Swift and Python. Regular user of \textbf{version control systems} (Git/SVN) with a firm grasp of key \textbf{agile} and \textbf{plan-based development methodologies} including SCRUM and Waterfall.  \\
+%		
+%		\multicolumn{2}{c}{} \\
+%	
+%		\begin{minipage}[t]{2.5cm}
+%		\begin{flushright}
+%			\textbf{University Performance}
+%		\end{flushright}
+%		\end{minipage}
+%		
+%		&
+%		
+%		Currently achieved a first in every university module to date, with an \textbf{average grade of 84\%} achieved in the last semester.\\
+%		
+%		\multicolumn{2}{c}{} \\
+%
+%	\begin{minipage}[t]{2.5cm}
+%		\begin{flushright}
+%			\textbf{Communication \& Collaboration}
+%		\end{flushright}
+%	\end{minipage}
+%		
+%		&
+%		
+%		Excellent verbal and written communication skills developed through working within a variety of positions including demonstrator and ambassador to the university computer science department, member of a software engineering team within a corporate environment and volunteering as a customer service advisor at one of the world's largest air-shows. \\
+%		
+%		\multicolumn{2}{c}{} \\
+%		
+%			\begin{minipage}[t]{2.5cm}
+%		\begin{flushright}
+%			\textbf{High Altitude Balloon Project (July 2012)}
+%		\end{flushright}
+%	\end{minipage}
+%		
+%		&
+%		
+%		Key team member and \textbf{brainchild} of successful project to send HAB to the \textbf{edge of space} in order to capture aerial images of earth and collect atmospheric data. Received \textbf{national media coverage} from BBC, ITV and Wales Online. (\href{http://www.bbc.co.uk/news/uk-wales-south-west-wales-18793717}{BBC News Article}) \\
+%		
+%		\multicolumn{2}{c}{} \\
+%			
+%	\begin{minipage}[t]{2.5cm}
+%		\begin{flushright}
+%			\textbf{Head Boy}
+%		\end{flushright}
+%		\end{minipage}
+%		
+%		&
+%		
+%		Developed key leadership, communication, and team working skills while leading a 20-person senior prefect team including playing a key role in organising the `end of year' ball for the entire 6th form. \\
+%
+%	\multicolumn{2}{c}{} \\
+%	
+%		\begin{minipage}[t]{2.5cm}
+%		\begin{flushright}
+%			\textbf{Freelance Work}
+%		\end{flushright}
+%		\end{minipage}
+%		
+%		&
+%		
+%		Produced a number of bespoke websites for both `business-to-business' and `business- to-consumer' real world clients, as a part-time freelance web designer. \\
+%
+%	\multicolumn{2}{c}{} \\
+%
+%\end{tabular}
+%\end{small}
+
+\section{Publication}
+
+\begin{enumerate}[]
+
+\item \underline{\textbf{Qi Chen}}; Jianxin Chen, et al. "Utilization-based VM consolidation scheme for power efficiency in cloud data centers," in \emph{Communication Workshop (ICC), 2015 IEEE International Conference on}, pp.1928-1933, 8-12 June 2015APA (EI)
+\item Jianxin Chen; \underline{\textbf{Qi Chen}}, et al. "Utilization-based VM consolidation scheme for power efficiency in cloud data centers," in \emph{Journal of Network and Systems Management} , under review (SCI, IF: 0.796)
+\end{enumerate}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Research Experience}
+
+\begin{longtable}{r | p{15cm}}
+
+			\textbf{Current}
+		
+		 &
+		
+		 \textbf{Three-Dimensional Flexible Rehabilitation System Based on Wearable Computing}  \\
+		
+			\textbf{June 2015}
+		&
+		
+		\footnotesize{
+
+\vspace{-0.3cm}\textit{Nanjing University of Posts and Telecommunications, Advised by: Liang Zhou}}
+ \\
+		
+&
+
+\footnotesize{
+
+\vspace{-0.3cm}
+
+
+\begin{itemize}[leftmargin=*]
+\item \textbf{Principal investigator}. Responsible for implementing vision system and optimizing algorithms
+
+\item Developed \textbf{flexible} rehabilitation system based on wearable computing, which could potentially inspire new \textbf{business model} and \textbf{revenue streams}.
+
+\item Participated in designing a three-dimensional wearable \textbf{human motion capture} module and applied \textbf{extended kalman filter} to improve the accuracy and stability of motion tracking
+
+\item Presented our rehabilitation system in \textbf{Challenge Cup 2015}, in Guangzhou, China and Developed a testbed in \textbf{National Olympic Fencing Team} at Nanjing Sport Institute
+
+\vspace{-0.4cm}
+
+\end{itemize}
+}
+\\
+
+%\footnotesize{Working within a small, close-knit team, provide technical and academic assistance to 1\textsuperscript{st} and 2\textsuperscript{nd} year students during assessed practical sessions in addition to verifying that assignments have been successfully completed.} \\
+
+\multicolumn{2}{c}{} \\
+
+			\textbf{May 2014 to}
+		
+		 &
+		
+		 \textbf{Multi-Resource Energy Efficient Resource Allocation in Cloud Data Centers}  \\
+		
+			\textbf{Mar 2015}
+		
+		& \footnotesize{
+
+\vspace{-0.3cm}\textit{Nanjing University of Posts and Telecommunications, Advised by: Jianxin Chen}}
+\\
+		
+&
+
+\footnotesize{
+
+\vspace{-0.3cm}
+
+\begin{itemize}[leftmargin=*]
+%\item Solved the problem of \textbf{dynamic fair consolidation} of Virtual Machine (VM) with detailed \textbf{theoretical analysis} on possible algorithms in cloud data centers
+
+\item Designed a \textbf{utilization-based dynamic} Virtual Machine (VM) migration framework for cloud computing
+
+\item Proposed a \textbf{probabilistic adaptive} overload detection based on central limited theorem, defined a \textbf{normalized utilization-based} host performance function, trading off power cost and Service Level Agreement (SLA) cost
+\item Transformed dynamic VM consolidation into an \textbf{optimization problem} so that most of hosts are almost in \textbf{achieving optimal status}
+
+\item Evaluated the scheme by \textbf{CloudSim} and the results show that it reduces migration cost and SLA violation effectively
+
+\item Published a paper on \textbf{ICC Workshop 2015} and expanded it on \textbf{Journal of Network and Systems Management}
+
+\vspace{-0.3cm}
+
+\end{itemize}
+
+}
+
+\\
+
+
+\multicolumn{2}{c}{} \\
+			\textbf{June 2013 to}
+		
+		 &
+		
+		 \textbf{Online Intelligent Social Network APP on Android Platform}  \\
+		
+			\textbf{Oct 2013}
+		
+		& \footnotesize{
+
+\vspace{-0.3cm}\textit{Nanjing University of Posts and Telecommunications, Advised by: Jianxin Chen}}
+\\
+		
+&
+
+\footnotesize{
+
+\vspace{-0.3cm}
+
+\begin{itemize}[leftmargin=*]
+\item Responsible for \textbf{database creation and server-side}: Implemented \textbf{self-designed} User database tables based on \textbf{MySQL}
+
+\item Developed several online basic Social Network’s functions via \textbf{J2EE}, including video chatting, social updates and commenting, etc
+
+\item Developed \textbf{intelligent recommender system} by analyzing users’ affection, employing several \textbf{machine learning} algorithms
+
+\vspace{-0.3cm}
+
+\end{itemize}
+
+}
+
+\\
+
+
+		%Feb 2012 to
+%		
+%		 &
+%		
+%		 Department Ambassador  \\
+%		
+%			June 2013
+%		
+%		&
+%		
+%		\textit{Aberystwyth University, Aberystwyth} \\
+%		
+%&
+%
+%\footnotesize{Selected to become a department ambassador after being identified as a clear communicator with confidence in interacting with the general public. In addition I was asked to provide a series of 15-minute presentations to prospective students and their parents about ``student life" in Aberystwyth.
+%
+%\vspace{-0.3cm}
+%
+%} \vspace{-0.3cm} \\
+
+\end{longtable}
+
+%----------------------------------------------------------------------------------------
+%	awards
+%----------------------------------------------------------------------------------------
+
+%\section{Academic Achievements}
+%
+%\begin{longtable}{r | p{13cm}}
+%
+%\textbf{July 2013 to July 2013}
+%		
+%		 & \textbf{The Dean's Honor Award of NYIT (won every year)} \\
+%
+%\\
+%\textbf{May 2014 } & \textbf{The Best Student Award}\\
+%
+%\textbf{Mar 2014}  & \textbf{The Second-class Scholarship in 2013-2014 Academic Year}\\
+%
+%\multicolumn{2}{c}{}
+%
+%\end{longtable}
+
+
+
+
+%\section{Volunteering}
+%
+%\begin{tabular}{r | p{13cm}}	
+%
+%\textbf{Current}
+%		
+%		 &
+%		
+%		 Student-Staff Committee Member  \\
+%		
+%			Sept 2014
+%		
+%		&
+%		
+%		\textit{Aberystwyth University, Aberystwyth} \\
+%		
+%&
+%
+%\footnotesize{
+%
+%Currently represent all MEng Software Engineering students on the university Student-Staff Committee board, discussing issues surrounding all aspects of university life inside and outside of the Computer Science department.
+%
+%\vspace{-0.4cm}
+%
+%} \vspace{-0.4cm} \\
+%
+%\multicolumn{2}{c}{} \\
+%
+%\textbf{Current}
+%		
+%		 &
+%		
+%		 Basic First Aider  \\
+%		
+%			Dec 2014
+%		
+%		&
+%		
+%		\textit{St John Ambulance, Aberystwyth Division} \\
+%		
+%&
+%
+%\footnotesize{
+%
+%Currently qualified as a St John Ambulance Basic First Aider (achieved through Aberystwyth University First Aid society (LINKS)). Involved in St John Ambulance duties within Aberystwyth and the surrounding area.
+%
+%\vspace{-0.4cm}
+%
+%} \vspace{-0.4cm} \\
+%
+%\multicolumn{2}{c}{} \\
+%
+%July 2014
+%
+%		&
+%		
+%		 CREW Member  \\
+%		
+%		 &
+%		
+%		\textit{Royal International Air Tattoo, Fairford, Gloucestershire} \\
+%		
+%&
+%
+%\footnotesize{
+%
+%Volunteered at the Royal International Air Tattoo while working as an intern at Renishaw Plc. Focussing on excellent customer service, I worked as part of a close-knit team providing front-line support to the thousands of visitors attending one of the UK's largest and premier air-shows.
+%
+%\vspace{-0.4cm}
+%
+%} \vspace{-0.4cm} \\
+%
+%\multicolumn{2}{c}{}
+%
+%\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Academic Achievements}
+
+\begin{tabular}{rl}
+Nov 2015 & \hspace{10mm}\textbf{The Third Prize in Challenge Cup 2015 }(most prestigious competition of science in China)\\
+July 2013 to July 2015& \hspace{10mm}\textbf{The Dean's Honor Award of NYIT} (won every year)\\
+
+May 2014 & \hspace{10mm}\textbf{The Best Student Award}\\
+
+Mar 2014 & \hspace{10mm}\textbf{The Second-class Scholarship in 2013-2014 Academic Year} (GPA TOP \textbf{5\%})\\
+ %\setmainfont{Fontin-Regular}: 730 (\textsc{q:50;v:39}) 96\textsuperscript{th} percentile; \textsc{awa}: 6.0/6.0 (89\textsuperscript{th} percentile)
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\begin{tabular}{rl}
+\textbf{Operating Systems:} & \hspace{8mm} Mac OS, Linux, Windows\\
+
+\textbf{Programming Language:} & \hspace{8mm} JAVA(J2EE), C++, Python, MATLAB, \LaTeX, MySQL\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+%\section{Interests and Activities}
+%
+%{\small I enjoy a wide variety of interests and activities including holding a place on the committee of the Aberystwyth Robotics Society and being a member of the university First Aid society (LINKS). I also enjoy a range of sports including mountain biking, kite boarding and sailing.}
+
+%\section{Referees}
+%
+%\begin{small}
+%\begin{tabularx}{\textwidth}{X X}
+%
+%\textbf{Dr. Liang zhou} & \textbf{Dr. Jianxin Chen} \\
+%\textit{Professor} & \textit{Associate Professor} \\\\
+%
+%\footnotesize{College of Communication and Information Engineering} & \footnotesize{College of Communication and Information Engineering} \\
+%\footnotesize{Nanjing University of Posts and Telecommunications} & \footnotesize{Nanjing University of Posts and Telecommunications} \\
+%\textbf{Tel:} +86 139 1393 6864 & \textbf{Tel:}  +86 189 5189 3820 \\
+%\textbf{Email:} liang.zhou@njupt.edu.cn & \textbf{Email:} chenjx@njupt.edu.cn
+%
+%\end{tabularx}
+%
+%\end{small}
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	GRADE TABLES
+%----------------------------------------------------------------------------------------
+
+%\par{\centering\Large \hypertarget{grds}{Master of Engineering in {Software Engineering}}\par}\large{\centering Course Grades\par}\normalsize
+%
+%\vspace{20pt}
+%
+%\begin{center}
+%\begin{tabular}{p{12cm}c}
+%\multicolumn{1}{c}{\textit{Module}} & \textit{Grade} \\ \hline
+%\\ \textit{Year 1} & \\ \\
+%Introduction To Computer Hardware, Operating Systems And Unix Tools & 82 \\
+%The Mathematics Driving License For Computer Science & 95 \\
+%Concepts In Programming & 82 \\
+%Professional And Personal Development & 80 \\
+%Chaos, Communications And Consciousness & 70 \\
+%Software Development & 82 \\
+%Web Development Tools & 86 \\
+%An Introduction To Communications And Telematics & 81 \\
+%
+%\\ \textit{Year 2} & \\ \\
+%The Advanced Mathematics Driving License For Computer Science & 71 \\
+%Program Design, Data Structures And Algorithms & 90 \\
+%The Software Development Life Cycle & 77 \\
+%C And Unix Programming & 89 \\
+%Web Programming & 91 \\
+%Web Programming & 82 \\
+%Modelling Persistent Data & 95 \\
+%User Centred Design And Human Computer Interaction & 71 \\
+%C++, C And Java Programming Paradigms & 90 \\
+%
+%\\ \textit{Year 3} & \\ \\
+%Industrial Placement (Renishaw plc) & 80 \\
+%
+%\\ \textit{Year 4} & \\ \\
+%Agile Methodologies & 72 \\
+%Advanced Computer Graphics & 85 \\
+%Computer Vision & 70 \\
+%Space Robotics & 84 \\
+%Developing Internet-Based Applications & 78 \\
+%Professional Issues In The Computing Industry & 81 \\
+%Major Project (Dissertation) & 78 \\
+%
+%%\multicolumn{1}{r}{Total}& 120
+%\end{tabular}
+%\end{center}
+%\bigskip
+%\hrule
+%\bigskip
+
+%\begin{center}
+%\begin{tabular}{lcc}
+%\multicolumn{1}{c}{\textsc{Module}} & \textsc{Grade}&\textsc{Credit Hrs}\\ \hline
+%Corporate Finance (Valuation) & 25 & 6\\
+%Financial Statement Analysis & 28 & 6\\
+%Statistics & 27 & 6\\
+%Theory of Finance & 26 & 6\\
+%Quantitative Methods for Finance & 30 & 6\\
+%Econometrics & 24 & 6\\
+%Derivatives & 31 & 6\\
+%Management of Financial and Insurance Companies & 30 & 6\\
+%Business Law & 31 & 6\\
+%Investment Banking	& 28 & 6\\ \\		
+%Behavioral Models for Economics and Finance	 & 29 & 6\\
+%Numerical Methods for Finance & 29 & 6\\
+%Advanced Derivatives & 30 & 6\\
+%Fixed Income (Advanced Methods) & 30 & 6\\ \\
+%English Language & 30 &	4\\
+%French Language & 31 &	4\\	
+%Internship & & 8\\		
+%Final Thesis & & 20\\	
+%& Total & 120\\\cline{2-3}
+%&\textsc{Gpa}&\textbf{8.0}
+%\end{tabular}
+%\end{center}
+%\bigskip
+%\hrule
+%\bigskip
+
+%------------------------------------------------
+
+%\bigskip
+%
+%\par{\centering\Large \hypertarget{grds_usc}{Exchange Program at \textsc{usc}, Los Angeles}\par}\large{\centering Grades\par}\normalsize
+%
+%\begin{center}
+%\begin{tabular}{lcc}
+%\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade} & \textsc{Grade Points}\\
+%\hline
+%Corporate Financial Strategy & A & 4\\
+%Derivatives & A & 4\\
+%Money, Credit, and Banking & A & 4\\
+%Business Strategy & A- & 3.5\\
+%& &\\\cline{2-3}
+%& \textsc{Gpa} & \textbf{3.875}
+%\end{tabular}
+%\end{center}
+
+%----------------------------------------------------------------------------------------
+\end{CJK*} 
+\end{document}

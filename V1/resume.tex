@@ -1,0 +1,107 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{fontawesome}
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+\name{Qi Chen}
+\vspace{-1mm}
+\basicInfo{
+  \email{chen147@usc.edu} \textperiodcentered\ 
+  \phone{(+1) 213-479-3339} \textperiodcentered\ 
+\faHome{ 1247 W 30th St, Los Angeles}
+}
+  \vspace{-5mm}
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{University of Southern California}, Los Angeles}{08/2016 -- 05/2018}
+\textit{Master of Science} in Computer Science (GPA: 3.75/4.0)
+\vspace{-2mm}
+\datedsubsection{\textbf{Nanjing University of Posts and Telecommunications}, Nanjing}{09/2012 -- 07/2016}
+\textit{Bachelor of Science} in Electrical and Computer Engineering (GPA: 3.71/4.0 (top 10\%))
+
+\vspace{-2mm}
+\section{\faCogs\ IT SKILLS}
+% increase linespacing [parsep=0.5ex]
+Programming Languages: \hspace{2cm}Java, PHP, JavaScript, Python, \LaTeX\\
+Web Technologies: \hspace{3cm}MySQL, Apache, HTML/CSS, AngularJS, BootStrap, AWS\\
+Other Technologies:\hspace{2.95cm}Linux, Android SDK, Hadoop, Spark, Machine Learning, Web Mining
+
+\vspace{-2mm}
+\section{\faInfo\ WORK EXPERIENCE}
+\vspace{-2mm}
+\datedsubsection{\textbf{Software Engineer Intern, Frenzy.AI Inc.}, Los Angeles}{05/2017 - 08/2017 }
+\begin{itemize}[parsep=0.5ex]
+  \item Developed and updated web scraping to retrieve product's data from 40,000 shopping sites and blogs
+  \item Applied dictionary tree to implement NLP, processing blog text and extracting product information (Brand, Category, Color and Material etc.) on PHP
+  \item Implemented our visual recognition using IBM Watson, classifying various item images into specific category class and training custom classifiers through 120,000 images. 
+\end{itemize}
+
+\vspace{-2mm}
+\section{\faUsers\ SELECTED PROJECTS}
+\vspace{-2mm}
+\datedsubsection{\textbf{Facebook Search: Web Technology}, Los Angeles}{01/2017 -- 05/2017}
+%\begin{onehalfspacing}
+\begin{itemize}
+  \item Built a web application for users to query friends, post pictures and comments through Facebook API, using HTML/CSS, Javascript and Bootstrap technologies
+  \item Developed a back-end server script for data retrieving and processing using PHP, JSON, deployed on AWS
+  \item Developed an Android APP with same functionalities using Android SDK
+\end{itemize}
+
+%\datedsubsection{\textbf{Target-Tracking Robot Based on Kinect}, Los Angeles}{08/2016 -- 12/2016}
+%\begin{itemize}
+%  \item Obtained dynamic 3D contours of face in 30 frames per second using Windows SDK and OpenCV(C++),
+%computed the face coordinate as the input of the control algorithm
+%  \item Designed a fuzzy control algorithm instead of bang-bang control using C++, decreased 50\% response time
+%of the robot
+%  \item Used C++ to establish serial port communication between Arduino and PC
+%\end{itemize}
+\vspace{-3mm}
+\datedsubsection{\textbf{Library Management System}, Nanjing}{01/2015 -- 07/2015}
+\begin{itemize}
+  \item Implemented a client-server Library Management System using Java, MySQL and socket
+  \item Established socket connection between client and server to handle transactions (query, update, delete etc.)
+  \item Designed Library System E/R Model on MySQL and applied JDBC to connect database
+\end{itemize}
+
+\vspace{-3mm}
+\datedsubsection{\textbf{Online Social Networking: Android APP/ J2EE}, Nanjing}{03/2013 -- 07/2013}
+%\role{\LaTeX, Python}{????}
+%\begin{onehalfspacing}
+%??? \LaTeX\ ????, https://github.com/billryan/resume
+\begin{itemize}
+  \item Developed a social networking APP and implemented chatting, file transmission functions using JAVA
+  \item Responsible for database design on MySQL and database connection using Hibernate
+  \item Implemented back-end server to handle client's query using Servlet and retrieve information from database
+  \end{itemize}
+
+\vspace{-2mm}
+\section{\faUsers\ RESEARCH PROJECT}
+\vspace{-2mm}
+\datedsubsection{\textbf{Cloud Computing Resource Allocation}, Nanjing}{09/2014 -- 05/2015}
+\role{\hspace{6mm}Research Assistant, Supervisor: Prof. Jianxin Chen}{}
+\vspace{-3mm}
+\normalsize{
+\begin{itemize}
+  \item Proposed a utilization-based migration algorithm to migrate Virtual Machines(VMs) to stable hosts, trading off Quality of Service (QoS) and power consumption
+  \item Evaluated algorithm by Java simulations and results reduced about 75\% migrations and saved up to 40\% power consumption compared with First Fit Decreasing 
+  \item Publication: \href{http://www-scf.usc.edu/~chen147/ICC\%20paper.pdf}{Qi Chen, et al. "Utilization-based VM consolidation scheme for power efficiency in cloud data centers," in Communication Workshop (ICC), 2015 IEEE International Conference on}
+\end{itemize}
+}
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+%\section{\faHeartO\ Honors and Awards}
+%\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
+%\datedline{Other awards}{2015}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
